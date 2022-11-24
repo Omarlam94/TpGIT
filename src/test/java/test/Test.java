@@ -2,8 +2,9 @@ package test;
 
 
 import java.time.LocalDate;
-
 import metier.Client;
+import metier.Adresse;
+import metier.Boutique;
 import metier.Console;
 import metier.Jeu;
 public class Test {
@@ -19,7 +20,8 @@ public class Test {
 		Jeu jeu4 = new Jeu("titre4",consol1);
 		Jeu jeu5 = new Jeu("titre5",consol1);
 
-		
+		Adresse adresse=new Adresse (8,"Boulevard d'europe","Bordeaux");
+		Boutique boutique = new Boutique("NitendoShop",adresse);
 	}
 
 }
