@@ -2,7 +2,7 @@ package test;
 
 
 import java.time.LocalDate;
-
+import metier.Client;
 import metier.Adresse;
 import metier.Boutique;
 import metier.Console;
