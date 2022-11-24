@@ -2,7 +2,7 @@ package metier;
 
 import java.time.LocalDate;
 
-public class Console {
+public abstract class Console {
 
 	private String nom;
     private double prix ;
@@ -39,11 +39,6 @@ public class Console {
 
 	public void setNom(String nom) {
 		this.nom = nom;
-	}
-
-	@Override
-	public String toString() {
-		return "Console [nom=" + nom + ", prix=" + prix + ", dateSortie=" + dateSortie + "]";
 	}
 
 	
