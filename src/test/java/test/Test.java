@@ -3,7 +3,7 @@ package test;
 
 import java.time.LocalDate;
 
-import metier.Boutique;
+import metier.Client;
 import metier.Console;
 import metier.Jeu;
 public class Test {
