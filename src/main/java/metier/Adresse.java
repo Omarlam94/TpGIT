@@ -1,6 +1,7 @@
 package metier;
 
 public class Adresse {
+	
 	private int numero;
 	private String rue;
 	private String ville;
@@ -41,6 +42,5 @@ public class Adresse {
 	}
 	
 	
-	
-}
 
+}
