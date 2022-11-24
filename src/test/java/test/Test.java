@@ -11,6 +11,8 @@ import metier.Boutique;
 import metier.Client;
 import metier.Console;
 import metier.Jeu;
+import metier.Salon;
+
 public class Test {
 
 	public static void main(String[] args) {
@@ -19,7 +21,7 @@ public class Test {
 		
 		Client client2= new Client("Ganondorf","Dragmire");
 		Client client1= new Client("Samus","Aranne");
-		Console consol1 = new Console("consol1", 12, LocalDate.parse("2000-10-31"));
+		Console consol1 = new Salon ("consol1", 12, LocalDate.parse("2000-10-31"));
 		
 		Adresse adresse=new Adresse (8,"Boulevard d'europe","Bordeaux");
 		Boutique boutique = new Boutique("NitendoShop",adresse);
